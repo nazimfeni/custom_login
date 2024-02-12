@@ -1,6 +1,6 @@
 CUstom Login us developed for practice purpose only using Laravel 10
 
-Steps:
+**Steps:**
 Step 1: Setting Up Laravel Project
 composer create-project --prefer-dist laravel/laravel custom_login
 step-2: Now go to the project directory using command  
