@@ -1,4 +1,4 @@
-CUstom Login us developed for practice purpose only using Laravel 10
+**Custom Login us developed for practice purpose only using Laravel 10**
 
 **Steps:**
 
