@@ -2,8 +2,10 @@ CUstom Login us developed for practice purpose only using Laravel 10
 
 **Steps:**
 
-Step 1: Setting Up Laravel Project
+**Step 1: Setting Up Laravel Project**
+```cmd
 composer create-project --prefer-dist laravel/laravel custom_login
+```
 step-2: Now go to the project directory using command  
 cd custom_login 
 Step 3: Create and Configuring Database Connection in .env file. You have to configure according to your system
