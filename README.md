@@ -191,8 +191,8 @@ layouts.blade.php
 @endsection
 ```
 
-Step 7: Create a middleware named: DisableAuthCaching to prevent this behavior, you can instruct the browser not to cache the pages related to authentication.
-Now write the belo code in App\Http\Middleware\DisableAuthCaching.php file.
+**Step 7: Create a middleware named: DisableAuthCaching to prevent this behavior, you can instruct the browser not to cache the pages related to authentication.
+Now write the belo code in App\Http\Middleware\DisableAuthCaching.php file.**
 ```php
 <?php
 namespace App\Http\Middleware;
@@ -216,9 +216,16 @@ class DisableAuthCaching
     }
 }
 ```
+Now paste the below code in App\Http\Kernel.php
+```php
+  protected $middlewareGroups = [
+        'web' => [
+         . . . . .
+            \App\Http\Middleware\DisableAuthCaching::class,
+        ],
+```
 
-
-Step 8: Creating Auth Routes
+**Step 8: Creating Auth Routes**
 ```php
 <?php
 use Illuminate\Support\Facades\Route;
