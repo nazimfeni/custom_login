@@ -254,5 +254,7 @@ Route::group(['middleware' => ['web', DisableAuthCaching::class]], function () {
 });
 ```
 
+Thanks for taking help from the below website.
+https://www.positronx.io/laravel-custom-authentication-login-and-registration-tutorial/
 
 
