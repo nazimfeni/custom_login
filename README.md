@@ -26,7 +26,7 @@ php artisan migrate
 ```cmd
 php artisan make:controller CustomAuthController
 ```
-**Step 6: Create Auth Blade View Files under /resources/view/auth folder**
+**Step 6: Create Auth Blade View Files under /resources/view/auth folder update the below code**
 layouts.blade.php
 ```php
 <!DOCTYPE html>
@@ -165,7 +165,7 @@ layouts.blade.php
 </main>
 @endsection
 ```
-dashboard.blade.php
+**dashboard.blade.php**
 
 ```php
 @extends('auth.layouts')
